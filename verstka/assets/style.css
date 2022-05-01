@@ -104,7 +104,7 @@ body{
 .content{
     margin: 0 auto;
     width: 1440px;
-    height: 1977px;
+    height: 1081px;
     background: white;
 }
 
@@ -206,6 +206,36 @@ body{
     height: 330px;
 }
 
+.services__cards__img{
+    width: 65.62px;
+    height: 75px;
+    padding: 38px 0 0 23px;
+}
+
+.services__cards__title{
+    width: 280px;
+    height: 48px;
+    padding: 25px 0 0 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .43px;
+    color: #48555B;
+}
+
+.services__cards__text{
+    width: 265px;
+    height: 92px;
+    padding: 13px 0 0 23px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: .19px;
+    color: #48555B;
+}
+
 #services__button{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -217,6 +247,11 @@ body{
     height: 40px;
     background: #00A4E5;
     border: none;
+}
+
+#services__button:hover{
+    opacity: .5;
+    transition-duration: .5s;
 }
 
 #services__title{
@@ -245,4 +280,174 @@ body{
     width: 405.4px;
     height: 38px;
     margin-right: 31.6px;
+}
+
+/* Touch */
+
+.touch{
+    background: url("images/getintouch_bg.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 1440px;
+    height: 499px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#touch__title{
+    width: 350px;
+    height: 72px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: .15px;
+    text-align: center;
+    margin-top: 120px;
+    color: #48555B;
+}
+
+#touch__contact{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: .5px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+    margin-top: 35px;
+}
+
+#touch__contact:hover{
+    opacity: .5;
+    transition-duration: .5s;
+}
+
+/* Newsletter */
+
+.newsletter{
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background: #171819;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter__email{
+    margin-left: 70px;
+    padding-left: 16px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #979797;
+    border-right: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: .07px;
+    color: #48555B;
+    position: relative;
+}
+
+#newsletter__accept_form{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: .5px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+}
+
+#newsletter__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: .85px;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer{
+    margin: 0 auto;
+    background: #141A20;
+    width: 1440px;
+    height: 299px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 240px;
+}
+
+.footer__info__company{
+    width: 250px;
+    height: 148px;
+}
+
+#footer__info__company__title{
+    width: 59px;
+    height: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: .85px;
+    text-align: center;
+}
+
+
+#footer__info__company__logo{
+    width: 101.62px;
+    height: 23px;
+    margin-top: 19px;
+}
+
+#footer__info__company__text{
+    width: 250px;
+    height: 76px;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: .85px;
+}
+
+.footer__info__links{
+    width: 262px;
+    height: 150px;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 60px;
+    background: #171819;
+}
+
+#footer__copyright__text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12.89px;
+    letter-spacing: .85px;
 }
